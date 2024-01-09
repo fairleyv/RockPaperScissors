@@ -1,5 +1,6 @@
 header {
     text-align: center;
+    
 }
 
 .imgs {
@@ -14,6 +15,24 @@ main h3 {
 .buttons {
     display: flex;
     justify-content: space-evenly;
+}
+
+.playerButtons button{
+    border-radius: 20px;
+    padding: 20px 40px ;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    box-shadow: inset 10px 5px 5px darkred;
+}
+
+.CPUButtons button{
+    border-radius: 20px;
+    padding: 20px 40px ;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    box-shadow: inset 10px 5px 5px darkgreen;
 }
 
 footer {
