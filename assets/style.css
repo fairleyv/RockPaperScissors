@@ -1,0 +1,21 @@
+header {
+    text-align: center;
+}
+
+.imgs {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+main h3 {
+    text-align:center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    text-align: center;
+}

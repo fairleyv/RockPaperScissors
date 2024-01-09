@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>Lets Play ROCK, PAPER, SCISSORS</h1>
+    </header>
+    <main>
+        <div class="imgs">
+            <img src="./assets/images/rockIcon.png" id="playerImg">
+            <img src="./assets/images/rockIcon.png" id="CPUImg">
+        </div>
+        <h3>Make Your Choice!</h3>
+        <div class="buttons">
+            <div class="playerButtons">
+                <button onclick="rockButton()">Rock</button>
+                <button onclick="paperButton()">Paper</button>
+                <button onclick="scissorsButton()">Scissors</button>
+            </div>
+            <div class="CPUButtons">
+                <button>Rock</button>
+                <button>Paper</button>
+                <button>Scissors</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h2 id="gameMessage">Good Luck!</h2>
+        <p id="wins">Wins: </p>
+        <p id="losses">Losses: </p>
+        <Button onclick="reset()">RESET</Button>
+    </footer>
+
+    
+    <script src="./assets/script.js"></script>
+</body>
+</html>
