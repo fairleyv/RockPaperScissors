@@ -15,6 +15,8 @@ let wins = document.getElementById('wins')
 
 let losses = document.getElementById('losses')
 
+let cpuClicks = 0
+
 wins.innerHTML = "Wins: " + winsNum
 
 losses.innerHTML = 'Losses: ' + lossNum
@@ -107,5 +109,21 @@ function scissorsButton () {
             winsNum++;
             wins.innerHTML = "Wins: " + winsNum;
             cpuImage.src = "./assets/images/paperIcon.png";
+    }
+}
+
+function notCPU() {
+    if (cpuClicks < 1) {
+        alert("STOP!!! You're NOT A COMPUTER!!!!!");
+        cpuClicks++;
+    } else if (cpuClicks === 1) {
+        alert("Seriously!!! I'm starting to get REALLY MADDDD!!!!");
+        cpuClicks++;
+    } else if (cpuClicks === 2) {
+        alert("You know what?! I'm just going to ignore you!");
+        cpuClicks++;
+    } else {
+        alert("NOPE!");
+        cpuClicks++;
     }
 }
